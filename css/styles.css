@@ -1,0 +1,216 @@
+/*Geral*/
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Banner*/
+
+.section-banner {
+    width: 100%;
+    height: auto;
+    padding: 120px 80px;
+    background-image: url('/Projeto_5/assets/banner-topo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    max-width: 250px;
+    color: #3c184e;
+    box-sizing: border-box;
+}
+
+#pet-boutique {
+    font-size: 35px;
+    margin: 0 0 5px;
+}
+
+.logo img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+#slogan {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+.call-us {
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0;
+    background-color: #ffffffc4;
+    box-shadow: 0 8px 32px 0 #1f26875e;
+}
+
+.call-us h1 {
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px;
+}
+
+.call-us p {
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #3c184e;
+    text-align: center;
+}
+
+.call-us a {
+    color: #ffff;
+    font-size: 20px;
+
+}
+
+.call-us img {
+    width: 20px;
+}
+
+/*Services*/
+
+.section-services {
+    width: 100%;
+    padding: 120px 80px;
+}
+
+.section-services h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.section-services-ul {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    color: #3c184e;
+}
+
+.section-services-ul li {
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.section-services,.section-social span {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.section-services-img {
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.section-services-img img {
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+/*Social*/
+
+.section-social {
+    padding: 120px 80px;
+    background-color: #3c184e;
+    text-align: center;
+}
+
+.section-social p {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.section-social a {
+    margin: 0 20px;
+}
+
+.section-social a img {
+    width: 50px;
+    height: 50px;
+
+}
+
+/*Company brands*/
+
+.section-company-brand {
+    width: 100%;
+    padding: 60px 80px;
+    text-align: center  ;
+    margin-bottom: 0;
+}
+
+.section-company-brand h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.company-brand-img {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.company-brand-img img {
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+/*Mapa*/
+
+.section-our-location {
+    width: 100%;
+    padding: 60px 80px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.section-our-location h3 {
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.section-our-location p {
+    font-size: 20px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px;
+}
+
+.section-our-location iframe {
+    height: 450px;
+    width: 800px;
+}
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3c184e; 
+}
+
+footer p {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
